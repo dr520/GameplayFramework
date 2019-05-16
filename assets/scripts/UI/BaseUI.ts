@@ -14,6 +14,8 @@ export abstract class BaseUI extends cc.Component
     protected static className = "BaseUI";
 
     protected mTag: any;
+
+    protected mParams:any
     public get tag(): any
 	{
 		return this.mTag;
@@ -37,5 +39,15 @@ export abstract class BaseUI extends cc.Component
     onShow()
     {
         cc.log("BaseUI onShow");
+    }
+
+    public set params(value: any)
+    {
+        this.mParams = value;
+    }
+
+    public get params():any
+    {
+        return this.mParams
     }
 }

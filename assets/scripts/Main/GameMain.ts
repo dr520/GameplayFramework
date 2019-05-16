@@ -4,7 +4,7 @@ import { ListenerManager } from "../Manager/ListenerManager";
 import { ListenerType } from "../Data/ListenerType";
 import { LoadingUI } from "../UI/LoadingUI";
 import { LogWrap } from "../Utils/LogWrap";
-
+import { MainUI } from "../UI/MainUI";
 const {ccclass, property} = cc._decorator;
 
 @ccclass
@@ -60,7 +60,7 @@ export class GameMain extends cc.Component
         
         UIManager.getInstance().openUI(LoadingUI, 10, ()=>{
             GameController.getInstance().initGame();
-        });
+        },null,{ui:MainUI});
     }
 
     update(dt)

@@ -2746,7 +2746,7 @@ declare namespace cc {
 		node.on(cc.Node.EventType.COLOR_CHANGED, callback);
 		``` 
 		*/
-		on<T extends Function>(type: string, callback: T, target?: any, useCapture?: boolean): T;		
+		on<T extends Function>(type: string|number, callback: T, target?: any, useCapture?: boolean): T;		
 		/**
 		!#en
 		Register an callback of a specific event type on the Node,

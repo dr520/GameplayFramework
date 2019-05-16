@@ -34,7 +34,7 @@ export class LoadingUI extends BaseUI {
             this.dragonNode.x = posX;
         };
 
-        UIManager.getInstance().openUI(MainUI,0,()=>{
+        UIManager.getInstance().openUI(this.params.ui,0,()=>{
             let action0 = cc.fadeOut(1);
             let callback = cc.callFunc(()=>{
                 UIManager.getInstance().closeUI(LoadingUI);
