@@ -52,7 +52,6 @@
       "z": 0,
       "w": 1
     },
-    "_zIndex": 0,
     "_is3DNode": true,
     "groupIndex": 0,
     "autoReleaseAssets": false,
@@ -123,7 +122,6 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_zIndex": 0,
     "_is3DNode": false,
     "groupIndex": 0,
     "_id": "a8m5LjYEhMbojKqdgghOAP"
@@ -183,7 +181,6 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_zIndex": 0,
     "_is3DNode": false,
     "groupIndex": 0,
     "_id": "69m/5puP5Kj7/nPnppCj2y"
@@ -220,6 +217,7 @@
       "width": 1,
       "height": 1
     },
+    "_renderStages": 1,
     "_id": "d0NbycqBpEfJ+NZ4calD1y"
   },
   {
@@ -277,7 +275,6 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_zIndex": 0,
     "_is3DNode": false,
     "groupIndex": 0,
     "_id": "8dauNkiDdEDoOfK1e39z/f"
