@@ -22,6 +22,14 @@ export class LoadingUI extends BaseUI {
     onLoad()
     {
         ListenerManager.getInstance().add(ListenerType.GameStart, this, this.onGameStart);
+
+        let loding = this.getUINode("Loading")
+        console.log("onLoad loding",loding)
+    }
+
+    start(){
+        let loding = this.getUINode("Loading")
+        console.log("onLoad start",loding)
     }
 
     private onGameStart()
