@@ -164,7 +164,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0
+      "z": 1155.2778886484411
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -193,7 +193,7 @@
       "__id__": 3
     },
     "_enabled": true,
-    "_cullingMask": 4294967295,
+    "_cullingMask": -3,
     "_clearFlags": 7,
     "_backgroundColor": {
       "__type__": "cc.Color",

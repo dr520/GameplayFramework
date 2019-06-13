@@ -3,6 +3,8 @@ import { GameDataManager } from "../Manager/GameDataManager";
 
 import { AudioManager } from "../Manager/AudioManager";
 import { UIHelp } from "../Utils/UIHelp";
+import { UIManager } from "../Manager/UIManager";
+import { GameUI } from "../App/UI/GameUI";
 
 const {ccclass, property} = cc._decorator;
 
@@ -50,6 +52,8 @@ export class MainUI extends BaseUI {
     onTouchStart()
     {
         cc.log("onOverlay TouchStart");
+        UIManager.getInstance().showUI(GameUI);
+        UIManager.getInstance().hideUI(MainUI);
     }
     
     onBtnSoundOpenState()

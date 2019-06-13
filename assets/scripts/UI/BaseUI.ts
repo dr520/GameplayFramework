@@ -56,7 +56,7 @@ export abstract class BaseUI extends cc.Component
      * @param nodeName 节点名
      * @returns {node}
      */
-    getUINode(nodeName) {
+    getUINode(nodeName):cc.Node {
         if (this.node.name === nodeName) {
             return this.node;
         };
@@ -73,7 +73,7 @@ export abstract class BaseUI extends cc.Component
      * @param nodeName 目标节点名
      * @returns {node}
      */
-    getWidgetByName(widget, nodeName) {
+    getWidgetByName(widget, nodeName):cc.Node {
         if (! widget) { cc.log("widget 异常，请检查是否存在"); return; };
         var length = widget.childrenCount;
         var childList = [];

@@ -3044,7 +3044,7 @@ declare namespace cc {
 		@param z z value of quternion
 		@param w w value of quternion 
 		*/
-		setRotation(quat: cc.Quat|number, y: number, z: number, w: number): void;		
+		setRotation(quat: cc.Quat|number, y?: number, z?: number, w?: number): void;		
 		/**
 		!#en
 		Returns a copy the untransformed size of the node. <br/>

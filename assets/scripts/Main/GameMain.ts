@@ -35,7 +35,7 @@ export class GameMain extends cc.Component
         let height: number = cc.winSize.height;
  
         let whr = width / height;
-        whr = whr < 0.473 ? 0.473: whr;
+        whr = whr < 0.46 ? 0.46: whr;
         // console.log("width: ", width, "height: ", height,"whr:",whr);
         let key = 0.563
         if (cc.sys.platform == cc.sys.MOBILE_BROWSER){

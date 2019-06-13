@@ -19,4 +19,6 @@ export class ListenerType {
     public static readonly OfflineReward = "OfflineReward";
     public static readonly OnTaskRedPoint = "OnTaskRedPoint";
     public static readonly OnInitStage = "OnInitStage";
+
+    public static readonly OnBallMove = "OnBallMove";
 }
